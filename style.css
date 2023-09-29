@@ -197,3 +197,7 @@ body{
     height: 3em;
     border-radius: 8px;
 }
+
+.btn-ligar{
+    margin-bottom: 10px;
+}

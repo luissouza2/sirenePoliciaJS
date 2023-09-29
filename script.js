@@ -14,9 +14,11 @@ function ligaSirene(){
 
 document.addEventListener('click', (e) => {
     const elementoClicado = e.target;
-    if(elementoClicado.classList.contains('btn')){
+    if(elementoClicado.classList.contains('btn-ligar')){
         if(!clicou){
-            setInterval(ligaSirene, 150);
+            const ligarInterval = setInterval(ligaSirene, 150);
         }
+    }else if(elementoClicado.classList.contains('btn-desligar')){
+        location.reload();
     }
 });
