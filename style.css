@@ -14,7 +14,6 @@ body{
 }
 
 .carro{
-    background-color: orange;
     width: 420px;
     height: 420px;
     display: flex;
@@ -154,34 +153,28 @@ body{
 .sirenes{
     width: 10em;
     height: 3em;
-    justify-content: space-between;
     display: flex;
-}
-
-#sirene1{
-    background-color: red;
-    width: 5em;
-    height: 3em;
-}
-
-#sirene2{
-    background-color: blue;
-    width: 5em;
-    height: 3em;
 }
 
 .vermelha{
     background-color: red;
     width: 5em;
     height: 3em;
+    border-radius: 8px;
+
 }
 
 .azul{
     background-color: blue;
     width: 5em;
     height: 3em;
+    border-radius: 8px;
+
 }
 
-.hide{
-    display: none;
+.branca{
+    background-color: white;
+    width: 5em;
+    height: 3em;
+    border-radius: 8px;
 }
